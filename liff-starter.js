@@ -39,7 +39,7 @@ function initializeApp(data) {
                         {
                             "type": "uri",
                             "label": "LIFF APP",
-                            "uri": "line://app/1508489527-8gy7JjJM?v=2"
+                            "uri": "line://app/1649301550-PL5ml2vO"
                         }
                     ],
                     "thumbnailImageUrl": "https://ssl.pstatic.net/linefriends/wp-content/uploads/2017/03/char_choco_name.png"
