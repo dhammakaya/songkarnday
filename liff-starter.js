@@ -42,7 +42,7 @@ function initializeApp(data) {
                             "uri": "line://app/1508489527-8gy7JjJM?v=2"
                         }
                     ],
-                    "thumbnailImageUrl": "https://s3.ap-southeast-1.amazonaws.com/dev.admin.aiya.ai/3b05fb4600/images/char_pc_top.jpg"
+                    "thumbnailImageUrl": "https://ssl.pstatic.net/linefriends/wp-content/uploads/2017/03/char_choco_name.png"
                 }],
                 "imageAspectRatio": "rectangle"
             }
