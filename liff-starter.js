@@ -26,15 +26,30 @@ function initializeApp(data) {
 
     // sendMessages call
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
-        liff.sendMessages([{
-            type: 'text',
-            text: "You've successfully sent a message! Hooray!"
-        }, {
-            type: 'sticker',
-            packageId: '2',
-            stickerId: '144'
-        }]).then(function () {
-            window.alert("Message sent");
+        liff.sendMessages([
+        {
+            "type": "template",
+            "altText": "this is a carousel template",
+            "template": {
+                "type": "carousel",
+                "columns": [{
+                    "title": "New Open Store",
+                    "text": "Opening Event",
+                    "actions": [
+                        {
+                            "type": "uri",
+                            "label": "LIFF APP",
+                            "uri": "line://app/1508489527-8gy7JjJM?v=2"
+                        }
+                    ],
+                    "thumbnailImageUrl": "https://s3.ap-southeast-1.amazonaws.com/dev.admin.aiya.ai/3b05fb4600/images/char_pc_top.jpg"
+                }],
+                "imageAspectRatio": "rectangle"
+            }
+        }
+    ]).then(function () {
+            // window.alert("Message sent");
+            liff.closeWindow();
         }).catch(function (error) {
             window.alert("Error sending message: " + error);
         });
