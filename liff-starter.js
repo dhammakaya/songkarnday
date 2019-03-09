@@ -29,20 +29,20 @@ function initializeApp(data) {
         liff.sendMessages([
         {
             "type": "template",
-            "altText": "this is a carousel template",
+            "altText": "ภาษาไทยได้ไหม",
             "template": {
                 "type": "carousel",
                 "columns": [{
-                    "title": "New Open Store",
-                    "text": "Opening Event",
+                    "title": "สุขสันต์วันเกิด",
+                    "text": "คุณ...",
                     "actions": [
                         {
                             "type": "uri",
-                            "label": "LIFF APP",
-                            "uri": "line://app/1649301550-PL5ml2vO"
+                            "label": "เพลงสุขสันต์วันเกิด",
+                            "uri": "https://www.youtube.com/watch?v=qlO_1_kxbCY"
                         }
                     ],
-                    "thumbnailImageUrl": "https://ssl.pstatic.net/linefriends/wp-content/uploads/2017/03/char_choco_name.png"
+                    "thumbnailImageUrl": "https://www.pngpix.com/wp-content/uploads/2016/03/Birthday-Cake-PNG-image-500x538.png"
                 }],
                 "imageAspectRatio": "rectangle"
             }
