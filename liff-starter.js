@@ -29,17 +29,17 @@ function initializeApp(data) {
         liff.sendMessages([
         {
             "type": "template",
-            "altText": "Thai-Lang",
+            "altText": "HBD",
             "template": {
                 "type": "carousel",
                 "columns": [{
                     "title": "สุขสันต์วันเกิด",
-                    "text": "คุณ...",
+                    "text": "Happy Birthday",
                     "actions": [
                         {
                             "type": "uri",
                             "label": "HBD",
-                            "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
+                            "uri": "line://app/1553274605-lGOee607"
                         }
                     ],
                     "thumbnailImageUrl": "https://www.pngpix.com/wp-content/uploads/2016/03/Birthday-Cake-PNG-image-500x538.png"
