@@ -33,7 +33,7 @@ function initializeApp(data) {
             "template": {
                 "type": "carousel",
                 "columns": [{
-                    "title": "สุขสันต์วันเกิด",
+                    "title": "Happy Birthday",
                     "text": "Happy Birthday",
                     "actions": [
                         {
