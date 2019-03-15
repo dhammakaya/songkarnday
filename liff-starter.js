@@ -29,7 +29,7 @@ function initializeApp(data) {
         liff.sendMessages([
         {
             "type": "template",
-            "altText": "ภาษาไทยได้ไหม",
+            "altText": "Thai-Lang",
             "template": {
                 "type": "carousel",
                 "columns": [{
