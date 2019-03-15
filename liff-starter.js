@@ -15,7 +15,7 @@ function initializeApp(data) {
     // openWindow call
     document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://line.me'
+            url: 'https://photoofdays.blogspot.com'
         });
     });
 
@@ -34,15 +34,15 @@ function initializeApp(data) {
                 "type": "carousel",
                 "columns": [{
                     "title": "Happy Birthday",
-                    "text": "Happy Birthday",
+                    "text": "Happy birthday to you...",
                     "actions": [
                         {
                             "type": "uri",
                             "label": "HBD",
-                            "uri": "line://app/1553274605-lGOee607"
+                            "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
                         }
                     ],
-                    "thumbnailImageUrl": "https://www.pngpix.com/wp-content/uploads/2016/03/Birthday-Cake-PNG-image-500x538.png"
+                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-VZli9k--8Xo/XIs4yJU3prI/AAAAAAAB_8Y/0GkOeIroxs45GfDLWgwPUjZ-EcZTaQBjgCLcBGAs/s1600/Birthday-Cake-PNG.png"
                 }],
                 "imageAspectRatio": "rectangle"
             }
