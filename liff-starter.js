@@ -41,7 +41,7 @@ function initializeApp(data) {
                     "actions": [{
                             "type": "uri",
                             "label": "HBD Song1",
-                            "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
+                            "uri": "https://www.youtube.com/watch?v=f3Y9zdMGGtg"
                       }]
                 },
                 {
@@ -51,7 +51,7 @@ function initializeApp(data) {
                     "actions": [{
                             "type": "uri",
                             "label": "HBD Song2",
-                            "uri": "https://www.youtube.com/watch?v=1kKDcUzxvYs"
+                            "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
                       }]
                 },
                 {
@@ -61,7 +61,7 @@ function initializeApp(data) {
                     "actions": [{
                             "type": "uri",
                             "label": "HBD Song3",
-                            "uri": "https://www.youtube.com/watch?v=f3Y9zdMGGtg"
+                            "uri": "https://www.youtube.com/watch?v=1kKDcUzxvYs"
                       }]
                 }
                 ],
