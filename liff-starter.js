@@ -40,7 +40,7 @@ function initializeApp(data) {
                     "text": "May the Tripple gems bless you.",
                     "actions": [{
                             "type": "uri",
-                            "label": "HBD",
+                            "label": "HBD Song1",
                             "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
                       }]
                 },
@@ -50,7 +50,7 @@ function initializeApp(data) {
                     "text": "May the Buddha bless you always,May the Dharma guide you.",
                     "actions": [{
                             "type": "uri",
-                            "label": "HBD",
+                            "label": "HBD Song2",
                             "uri": "https://www.youtube.com/watch?v=1kKDcUzxvYs"
                       }]
                 },
@@ -60,7 +60,7 @@ function initializeApp(data) {
                     "text": "Wishes you be rich, be healthy and peaceful mind.",
                     "actions": [{
                             "type": "uri",
-                            "label": "HBD",
+                            "label": "HBD Song3",
                             "uri": "https://www.youtube.com/watch?v=f3Y9zdMGGtg"
                       }]
                 }
