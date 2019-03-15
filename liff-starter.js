@@ -39,7 +39,7 @@ function initializeApp(data) {
                         {
                             "type": "uri",
                             "label": "เพลงสุขสันต์วันเกิด",
-                            "uri": "https://www.youtube.com/watch?v=qlO_1_kxbCY"
+                            "uri": "line://app/1553274605-NE3LLJVB"
                         }
                     ],
                     "thumbnailImageUrl": "https://www.pngpix.com/wp-content/uploads/2016/03/Birthday-Cake-PNG-image-500x538.png"
