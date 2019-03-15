@@ -32,22 +32,43 @@ function initializeApp(data) {
             "altText": "HBD",
             "template": {
                 "type": "carousel",
-                "columns": [{
+                "columns":
+                [
+                {
+                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-OQfdyfuI7ik/XItUynnpTlI/AAAAAAAB_9A/uJyivQdyLEgs9VVZfj1RBql9v-JIgZPAACLcBGAs/s1600/001.jpg",
                     "title": "Happy Birthday",
-                    "text": "Happy birthday to you...",
-                    "actions": [
-                        {
+                    "text": "May the Tripple gems bless you.",
+                    "actions": [{
                             "type": "uri",
                             "label": "HBD",
                             "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
-                        }
-                    ],
-                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-VZli9k--8Xo/XIs4yJU3prI/AAAAAAAB_8Y/0GkOeIroxs45GfDLWgwPUjZ-EcZTaQBjgCLcBGAs/s1600/Birthday-Cake-PNG.png"
-                }],
+                      }]
+                },
+                {
+                    "thumbnailImageUrl": "https://3.bp.blogspot.com/-SLFzacc3wdY/XItP9BTD5dI/AAAAAAAB_8s/Se5CxncgFWYNOw8_AXV-8b0Gkibf3WEuQCLcBGAs/s1600/002.jpg",
+                    "title": "Happy Birthday",
+                    "text": "May the Buddha bless you always,May the Dharma guide you.",
+                    "actions": [{
+                            "type": "uri",
+                            "label": "HBD",
+                            "uri": "https://www.youtube.com/watch?v=1kKDcUzxvYs"
+                      }]
+                },
+                {
+                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-uOfAxUjNcFc/XItP8xTKPJI/AAAAAAAB_8k/wSMsj13W_xkVn9zsBQx5p4AGOQ8YDieBQCLcBGAs/s1600/003.jpg",
+                    "title": "Happy Birthday",
+                    "text": "Wishes you be rich, be healthy and peaceful mind.",
+                    "actions": [{
+                            "type": "uri",
+                            "label": "HBD",
+                            "uri": "https://www.youtube.com/watch?v=f3Y9zdMGGtg"
+                      }]
+                }
+                ],
                 "imageAspectRatio": "rectangle"
             }
         }
-    ]).then(function () {
+        ]).then(function () {
             // window.alert("Message sent");
             liff.closeWindow();
         }).catch(function (error) {
