@@ -25,7 +25,7 @@ function initializeApp(data) {
     });
 
     // sendMessages call
-    document.getElementById('sendmessagebutton').addEventListener('click', function () {
+    document.getElementById('sendmessagebutton').addEventListener('click', function (picurl) {
         liff.sendMessages([
         {
             "type": "template",
@@ -35,7 +35,7 @@ function initializeApp(data) {
                 "columns":
                 [
                 {
-                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-brtLKaJj2H8/XK6w5TLp09I/AAAAAAACAEw/ZYaqqMz6d_oN4l0-K566wUBNJx05YdHJwCLcBGAs/s1600/anumothana.png",
+                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-saG_UR4XOA0/XK6zLkZKLAI/AAAAAAACAE8/Ys-wFomdkFArxRuMxq53va8tRxcrBlZ_QCLcBGAs/s1600/anumothana.png",
                     "title": "Anumothanaboon",
                     "text": "I rejoice in your merits.",
                     "actions": [{
