@@ -29,39 +29,19 @@ function initializeApp(data) {
         liff.sendMessages([
         {
             "type": "template",
-            "altText": "HBD",
+            "altText": "Anumothanaboon",
             "template": {
                 "type": "carousel",
                 "columns":
                 [
                 {
-                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-OQfdyfuI7ik/XItUynnpTlI/AAAAAAAB_9A/uJyivQdyLEgs9VVZfj1RBql9v-JIgZPAACLcBGAs/s1600/001.jpg",
-                    "title": "Happy Birthday",
-                    "text": "May the Tripple gems bless you.",
+                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-brtLKaJj2H8/XK6w5TLp09I/AAAAAAACAEw/ZYaqqMz6d_oN4l0-K566wUBNJx05YdHJwCLcBGAs/s1600/anumothana.png",
+                    "title": "Anumothanaboon",
+                    "text": "I rejoice in your merits.",
                     "actions": [{
                             "type": "uri",
-                            "label": "HBD Song1",
-                            "uri": "https://www.youtube.com/watch?v=f3Y9zdMGGtg"
-                      }]
-                },
-                {
-                    "thumbnailImageUrl": "https://3.bp.blogspot.com/-SLFzacc3wdY/XItP9BTD5dI/AAAAAAAB_8s/Se5CxncgFWYNOw8_AXV-8b0Gkibf3WEuQCLcBGAs/s1600/002.jpg",
-                    "title": "Happy Birthday",
-                    "text": "May the Buddha bless you always,May the Dharma guide you.",
-                    "actions": [{
-                            "type": "uri",
-                            "label": "HBD Song2",
-                            "uri": "https://www.youtube.com/watch?v=P3EjRcqfWqw"
-                      }]
-                },
-                {
-                    "thumbnailImageUrl": "https://4.bp.blogspot.com/-uOfAxUjNcFc/XItP8xTKPJI/AAAAAAAB_8k/wSMsj13W_xkVn9zsBQx5p4AGOQ8YDieBQCLcBGAs/s1600/003.jpg",
-                    "title": "Happy Birthday",
-                    "text": "Wishes you be rich, be healthy and peaceful mind.",
-                    "actions": [{
-                            "type": "uri",
-                            "label": "HBD Song3",
-                            "uri": "https://www.youtube.com/watch?v=1kKDcUzxvYs"
+                            "label": "Anumothanaboon",
+                            "uri": "https://youtu.be/aOe2JmVQ4FA"
                       }]
                 }
                 ],
