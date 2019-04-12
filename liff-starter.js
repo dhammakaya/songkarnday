@@ -25,23 +25,27 @@ function initializeApp(data) {
     });
 
     // sendMessages call
-    document.getElementById('sendmessagebutton').addEventListener('click', function (picurl) {
+    document.getElementById('sendmessagebutton').addEventListener('click', function () {
+        var thumbnailImageUrl = "https://2.bp.blogspot.com/-jmykOsS6BLs/XK_aZiy5ujI/AAAAAAACAFU/Esl83A9n8ukrdaT-MXuK73K1E6uJnIT3QCLcBGAs/s1600/e4425.jpg";
+        var title = "💦💦💦";
+        var text = "Happy Songkarn Day(Thai Newyear)";
+        var url = "https://youtu.be/Fuw_dORBFxo";
         liff.sendMessages([
         {
             "type": "template",
-            "altText": "Anumothanaboon",
+            "altText": "Happy Songkarn Day",
             "template": {
                 "type": "carousel",
                 "columns":
                 [
                 {
-                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-saG_UR4XOA0/XK6zLkZKLAI/AAAAAAACAE8/Ys-wFomdkFArxRuMxq53va8tRxcrBlZ_QCLcBGAs/s1600/anumothana.png",
-                    "title": "Anumothanaboon",
-                    "text": "I rejoice in your merits.",
+                    "thumbnailImageUrl": thumbnailImageUrl,
+                    "title": title ,
+                    "text": text,
                     "actions": [{
                             "type": "uri",
-                            "label": "Anumothanaboon",
-                            "uri": "https://youtu.be/aOe2JmVQ4FA"
+                            "label": "Song",
+                            "uri": url
                       }]
                 }
                 ],
