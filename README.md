@@ -9,7 +9,7 @@ This is a small web application that demonstrates the basic functionality of the
 
 ## Deploying the application
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dhammakaya/anumothanaboon)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dhammakaya/songkarnday)
 
 1. Click the above "Deploy to Heroku button".
 2. Fill in the required information on the "Create a New App" page in Heroku.
@@ -69,10 +69,10 @@ You can download the starter app to your local machine to test and make changes 
 1. Make sure you have the following installed
     - [Git](https://git-scm.com/)
 
-1. Clone the [lineliffHBD](https://github.com/dhammakaya/anumothanaboon) GitHub repository.
+1. Clone the [songkarnday](https://github.com/dhammakaya/songkarnday) GitHub repository.
 
     ```shell
-    git clone https://github.com/dhammakaya/anumothanaboon.git
+    git clone https://github.com/dhammakaya/songkarnday.git
     ```
 
 1. `cd` into your Git directory.
